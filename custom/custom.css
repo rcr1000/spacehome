@@ -1,0 +1,141 @@
+a {
+  color: inherit;
+}
+
+a:hover {
+  color: #FD7070;
+  text-decoration: none;
+}
+
+body {
+  background-color: #222;
+  color: #A4A4A4;
+  line-height: 2.2em;
+  text-align: center;
+}
+
+body .container:first-child {
+  padding-top: 15px;
+}
+
+.container .row > div {
+  padding-bottom: 15px;
+}
+
+.row.second div {
+  padding-top: 7px;
+}
+
+#date {
+  color: #C8C8C8;
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  font-size: 2.5em;
+  margin-top: 0;
+  padding-right: 16%;
+}
+
+html, body {
+  height: 100%;
+}
+
+form input {
+  background: transparent;
+  border: #A4A4A4 1px solid;
+  color: #A4A4A4;
+}
+
+form input[type="text"] {
+  background: transparent;
+  border: #A4A4A4 1px solid;
+  border-right: none;
+  border-radius: 2px 0 0 2px;
+  color: #A4A4A4;
+  margin-right: 0;
+}
+
+form button[type="submit"] {
+  background-color: #A4A4A4;
+  border: #A4A4A4 1px solid;
+  border-radius: 0 2px 2px 0;
+  color: #222;
+  margin-left: 0;
+  padding: 6px 6px;
+}
+
+ul {
+  padding-left: 0;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+#buttons a.btn {
+  width: 100%;
+}
+
+#buttons .form-group {
+  margin-bottom: 0;
+}
+
+#links {
+  margin-top: 180px;
+  font-size: 17px;
+}
+
+#links h2 {
+  border-bottom: #FD7070 2px solid;
+  color: #FD7070;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  text-align: left;
+}
+
+#links ul li a {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+#search-bars .form-group input {
+  float: left;
+  width: 80%;
+}
+
+#search-bars .form-group button {
+  width: 20%;
+}
+
+.btn-default {
+  background-color: #A4A4A4;
+  border: #A4A4A4 1px solid;
+  border-radius: 2px;
+  color: #222;
+}
+
+.btn-default:hover {
+  background-color: #FD7070;
+  border: #FD7070 1px solid;
+  color: #222;
+}
+
+.form-control:focus {
+  border-color: inherit;
+  box-shadow: inherit;
+}
+
+.form-inline .form-group button {
+  border-radius: 0 2px 2px 0;
+}
+
+.inner {
+  display: table;
+  height: 100%;
+  width: 100%;
+  min-height: 100%;
+}
+
+.inner-inner {
+  display: table-cell;
+  vertical-align: middle;
+}
