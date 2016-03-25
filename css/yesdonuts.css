@@ -1,0 +1,52 @@
+body {
+  background-color: #222;
+  color: #A4A4A4;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 2.2em;
+  margin-top: 15px; }
+
+a {
+  color: #A4A4A4; }
+  a:hover {
+    color: #FD70AB;
+    text-decoration: none; }
+
+h2 {
+  border-bottom: #FD70AB 2px solid;
+  color: #FD70AB;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300; }
+
+input[type="text"] {
+  background: transparent;
+  border-right: none;
+  color: #FD70AB; }
+  input[type="text"]:focus {
+    border-color: #FD70AB #A4A4A4 #FD70AB #FD70AB;
+    box-shadow: none; }
+
+ul {
+  padding: 0; }
+  ul li {
+    list-style-type: none;
+    text-align: center; }
+
+#links {
+  font-size: 17px;
+  margin-top: 30px; }
+
+#top.row {
+  padding-bottom: 10px; }
+
+.btn-default {
+  background-color: #A4A4A4;
+  border-color: #A4A4A4;
+  color: #222; }
+  .btn-default:hover {
+    background-color: #FD70AB;
+    border-color: #FD70AB; }
+
+#date {
+  font-size: 17px; }
+
+/*# sourceMappingURL=yesdonuts.css.map */
