@@ -1,28 +1,17 @@
 body {
-  background-color: #222;
-  color: #A4A4A4;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  line-height: 2.2em;
-  margin-top: 15px; }
+  line-height: 2.2em; }
 
-a {
-  color: #A4A4A4; }
-  a:hover {
-    color: #FD70AB;
-    text-decoration: none; }
+a:hover {
+  text-decoration: none; }
 
 h2 {
-  border-bottom: #FD70AB 2px solid;
-  color: #FD70AB;
   font-family: "Open Sans", sans-serif;
   font-weight: 300; }
 
 input[type="text"] {
-  background: transparent;
-  border-right: none;
-  color: #FD70AB; }
+  border-right: none; }
   input[type="text"]:focus {
-    border-color: #FD70AB #A4A4A4 #FD70AB #FD70AB;
     box-shadow: none; }
 
 ul {
@@ -35,16 +24,9 @@ ul {
   font-size: 17px;
   margin-top: 30px; }
 
-#top.row {
-  padding-bottom: 10px; }
-
-.btn-default {
-  background-color: #A4A4A4;
-  border-color: #A4A4A4;
-  color: #222; }
-  .btn-default:hover {
-    background-color: #FD70AB;
-    border-color: #FD70AB; }
+#top.row > div {
+  padding-bottom: 10px;
+  padding-top: 15px; }
 
 #date {
   font-size: 17px; }

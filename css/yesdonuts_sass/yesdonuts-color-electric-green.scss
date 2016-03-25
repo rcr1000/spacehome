@@ -1,0 +1,41 @@
+$dark: #222;
+$light: #A4A4A4;
+$primary: #9CF771;
+
+body {
+  background-color: $dark;
+  color: $light;
+}
+
+a {
+  color: $light;
+
+  &:hover {
+    color: $primary;
+  }
+}
+
+h2 {
+  border-bottom: $primary 2px solid;
+  color: $primary;
+}
+
+input[type="text"] {
+  background: transparent;
+  color: $primary;
+
+  &:focus {
+    border-color: $primary $light $primary $primary;
+  }
+}
+ 
+.btn-default {
+  background-color: $light;
+  border-color: $light;
+  color: $dark;
+
+  &:hover {
+    background-color: $primary;
+    border-color: $primary;
+  }
+}

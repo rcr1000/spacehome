@@ -1,0 +1,28 @@
+body {
+  background-color: #222;
+  color: #A4A4A4; }
+
+a {
+  color: #A4A4A4; }
+  a:hover {
+    color: #FD70AB; }
+
+h2 {
+  border-bottom: #FD70AB 2px solid;
+  color: #FD70AB; }
+
+input[type="text"] {
+  background: transparent;
+  color: #FD70AB; }
+  input[type="text"]:focus {
+    border-color: #FD70AB #A4A4A4 #FD70AB #FD70AB; }
+
+.btn-default {
+  background-color: #A4A4A4;
+  border-color: #A4A4A4;
+  color: #222; }
+  .btn-default:hover {
+    background-color: #FD70AB;
+    border-color: #FD70AB; }
+
+/*# sourceMappingURL=hot-pink.css.map */

@@ -1,40 +1,26 @@
-$dark: #222;
 $fontStack: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$light: #A4A4A4;
-$primary: #FD70AB;
 $fontSize: 17px;
 
 body {
-  background-color: $dark;
-  color: $light;
   font-family: $fontStack;
   line-height: 2.2em;
-  margin-top: 15px;
 }
 
 a {
-  color: $light;
-
   &:hover {
-    color: $primary;
     text-decoration: none;
   }
 }
 
 h2 {
-  border-bottom: $primary 2px solid;
-  color: $primary;
   font-family: "Open Sans", sans-serif;
   font-weight: 300;
 }
 
 input[type="text"] {
-  background: transparent;
   border-right: none;
-  color: $primary;
 
   &:focus {
-    border-color: $primary $light $primary $primary;
     box-shadow: none;
   }
 }
@@ -54,19 +40,9 @@ ul {
   margin-top: 30px;
 }
 
-#top.row {
+#top.row > div {
   padding-bottom: 10px;
-}
-
-.btn-default {
-  background-color: $light;
-  border-color: $light;
-  color: $dark;
-
-  &:hover {
-    background-color: $primary;
-    border-color: $primary;
-  }
+  padding-top: 15px;
 }
 
 #date {

@@ -1,0 +1,28 @@
+body {
+  background-color: #222;
+  color: #A4A4A4; }
+
+a {
+  color: #A4A4A4; }
+  a:hover {
+    color: #86E1FF; }
+
+h2 {
+  border-bottom: #86E1FF 2px solid;
+  color: #86E1FF; }
+
+input[type="text"] {
+  background: transparent;
+  color: #86E1FF; }
+  input[type="text"]:focus {
+    border-color: #86E1FF #A4A4A4 #86E1FF #86E1FF; }
+
+.btn-default {
+  background-color: #A4A4A4;
+  border-color: #A4A4A4;
+  color: #222; }
+  .btn-default:hover {
+    background-color: #86E1FF;
+    border-color: #86E1FF; }
+
+/*# sourceMappingURL=tron.css.map */

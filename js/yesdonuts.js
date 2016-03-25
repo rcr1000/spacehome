@@ -1,4 +1,11 @@
 $(document).ready(function() {
+
+  var colorSchemes = [
+    'electric-green.css',
+    'hot-pink.css',
+    'tron.css'
+  ];
+
   var monthNames = [
     "January",
     "February",
@@ -22,4 +29,16 @@ $(document).ready(function() {
   today = m + ' ' + d + ', ' + yyyy;
 
   $('#date').text(today);
+
+  // Pick a random color scheme
+  var colorScheme = colorSchemes[Math.floor(Math.random() * colorSchemes.length)];
+
+  // Remove the fallback colorscheme and apply the random one.
+  $("LINK[href='css/yesdonuts_color_schemes/tron.css']").remove();
+  $('<link />', {
+    rel: 'stylesheet',
+    type: 'text/css',
+    href: 'css/yesdonuts_color_schemes/' + colorScheme
+  }).appendTo('head');
+
 });
